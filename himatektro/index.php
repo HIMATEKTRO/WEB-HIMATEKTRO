@@ -113,7 +113,7 @@
       </div>
       <div class="row gx-10">
 
-        <div class="col-md-4 mb-3">
+        <div class="col-md-2 mb-3">
           <div class="card shadow"  >
 
             <div class="inner">
@@ -128,7 +128,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 mb-3">
+        <div class="col-md-2 mb-3">
           <div class="card shadow"  >
             <div class="inner">
               <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
@@ -142,7 +142,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 mb-3">
+        <div class="col-md-2 mb-3">
           <div class="card shadow"  >
             <div class="inner">
               <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
@@ -156,45 +156,53 @@
           </div>
         </div>
 
+        <div class="col-md-2 mb-3">
+          <div class="card shadow"  >
+            <div class="inner">
+              <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+          <div class="card shadow"  >
+            <div class="inner">
+              <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+          <div class="card shadow"  >
+            <div class="inner">
+              <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
    
   </section>
   <!-- END BERITA Terkini -->
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+ 
 
   <!-- Footer -->
   <footer class="bg-dark text-center text-white">
