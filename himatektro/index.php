@@ -5,6 +5,9 @@
   <title> HIMATEKTRO | Himpunan Mahasiswa Teknik Elektro | Universitas Syiah Kuala </title>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/ad0d081d8e.js" crossorigin="anonymous"></script>
+  
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -12,10 +15,10 @@
   <!-- START Header-->
   <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <div>
-          <img src="img/uskcrop.png" alt="" width="130" height="45" class="d-inline-block align-text-top">
-        </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">
+          <img src="img/uskcrop.png" alt="" width="130" height="45" class="d-inline-block align-content-center h1">HIMATEKTRO
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -79,7 +82,7 @@
   <section class="container">
     <h2>Beranda</h2>
     <div class="box">
-      <h3> Selamat Datang yadi Form Admin Controlling Asset. </h3>
+      <h3> Selamat Datang di Form Admin Controlling Asset. </h3>
       <!-- START card -->
       <div class="card" align="center">
         <div class="card-header"> INFOKOM </div>
@@ -135,6 +138,56 @@
   <br>
   <br>
   <br>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-2">
+      <!-- Section: Social media -->
+      <section class="mb-2">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+     
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-start p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="#">HIMATEKTRO</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
