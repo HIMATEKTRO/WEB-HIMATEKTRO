@@ -14,31 +14,30 @@
 <body>
   <!-- START Header-->
   <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-opacity-75 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="">
-          <img src="img/uskcrop.png" alt="" width="130" height="45" class="d-inline-block align-content-center h1">HIMATEKTRO
-        </a>
+          <img src="img/uskcrop.png" alt="" width="130" height="45" class="d-inline-block align-content-center h1"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active text-primary" aria-current="page" href="#">About Us</a>
-            <a class="nav-link text-primary" href="#">DEPARTEMEN</a>
-            <a class="nav-link text-primary" href="#">DOKUMEN</a>
-            <a class="nav-link text-primary">PROFIL</a>
+            <a class="nav-link active text-white" aria-current="page" href="#">About Us</a>
+            <a class="nav-link text-white" href="#">DEPARTEMEN</a>
+            <a class="nav-link text-white" href="#">DOKUMEN</a>
+            <a class="nav-link  text-white">PROFIL</a>
           </div>
         </div>
            </div>
     </nav>
   </div>
-  <br>
-  <br>
+
   <!-- END Bagian Header-->
+
   <!-- START IMAGE SILDER-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
+  <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
+    <div class="carousel-indicators ">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -78,32 +77,90 @@
   <!-- END IMAGE SILDER-->
   <br>
 
-  <!-- START content -->
-  <section class="container">
-    <h2>Beranda</h2>
-    <div class="box">
-      <h3> Selamat Datang di Form Admin Controlling Asset. </h3>
-      <!-- START card -->
-      <div class="card" align="center">
-        <div class="card-header"> INFOKOM </div>
-        <div class="card-body">
-          <h5 class="card-title">Website Himpunan Mahasiswa Teknik Elektro</h5>
-          <p class="card-text">Web Himatektro dibuat menggunkan HTML/CSS/PHP..</p>
-          <a href="#" class="btn btn-primary">Read More</a>
+<!-- START VISI DAN MISI -->
+  <section id="visi misi">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h1>VISI MISI</h1>
         </div>
-        
-        <div class="card-header"> KESMA </div>
-        <div class="card-body">
-          <h5 class="card-title">Mahasiswa Teknik Elektro Epical Glory!</h5>
-          <p class="card-text">Salah seorang mahasisawa teknik elektro universitas syiah kuala..</p>
-          <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+      
+      </div>
+      <div class="row justify-content-center fs-7">
+        <div class="col-md-4 mb-3">
+          <h4>Visi :</h4>
+          Terwujudnya Himpunan Mahasiswa Teknik Elektro sebagai tempat berkarya bagi seluruh mahasiswa untuk memiliki karakter Progresivitas, Kompetitif, dan Aktualis.</div>
+      
+          <div class="col-md-4">
+           <h4>Misi :</h4>
+          <p>1. Peningkatkan koordinasi dan kualitas kerjasama BEM dengan seluruh organisasi</p>
+          <p>2. Peningkatan mutu pengabdian masyarakat terorganisir</p>
+          <p>3. Fasilitas pengembangan mutu minat bakat, keilmuan, dan karakter mahasiswa pada tingkat Universitas, Regional, Nasional, dan Internasional</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END VISI DAN MISI -->
+
+  <!-- START BERITA TERIKINI -->
+  <section id="berita terkini">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h1>Kegiatan Yang Akan Datang</h1>
+        </div>
+      </div>
+      <div class="row gx-10">
+
+        <div class="col-md-4 mb-3">
+          <div class="card shadow"  >
+
+            <div class="inner">
+              <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card shadow"  >
+            <div class="inner">
+              <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card shadow"  >
+            <div class="inner">
+              <img src="img/LOGOINFOKOMcrop.jpg" class="card-img-top" alt="...">
+            </div>
+            
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
 
       </div>
-      <!-- END card -->
     </div>
+   
   </section>
-  <!-- END content -->
+  <!-- END BERITA Terkini -->
   <br>
   <br>
   <br>
@@ -177,7 +234,7 @@
       </section>
       <!-- Section: Social media -->
      
-    </div>
+      </div>
     <!-- Grid container -->
 
     <!-- Copyright -->
